@@ -1,0 +1,102 @@
+body{
+    background-color:white;
+    margin:0;
+    font-family:sans-serif;
+}
+
+nav{
+    background-color:rgb(240,240,240);
+    height:35px;
+    width:100%;
+    display:flex;
+    justify-content:right;
+    align-items:center;
+    gap:20px;
+    font-size:15px;
+}
+nav >a{
+    color:black;
+}
+nav > a:last-child {
+    margin-right:20px;
+}
+
+form{
+    text-align:center;
+}
+.form_ad{
+    text-align:left;
+    margin-left:2vw;
+}
+
+input[type="text"]{
+    width:40%;
+    height: 34px;
+    border-radius:15px;
+}
+input[type="submit"]{
+    margin-top:30px;
+    height:40px;
+    border-radius:15px;
+    width:120px;
+}
+.form_ad input[type="text"]{
+    width:30%;
+    height: 24px;
+    border-radius:0px;
+    border:1px solid black;
+}
+
+h1{
+    font-size:70px;
+    color:black;
+    display: flex;
+    justify-content:center;
+    margin-top:18vh;
+}
+
+goo{
+    display:flex;
+    margin-left:3vw;
+    justify-content:center;
+}
+
+h2{
+    font-size:35px;
+    color:black;
+    margin-top:3vh;
+}
+
+.as{
+    text-align:left;
+    padding:4vw;
+}
+
+h4{
+    font-size:18px;
+    font-weight:normal;
+    margin-left:3vw;
+    padding-left: 2vw;
+}
+
+h5{
+    font-size:15px;
+    font-weight:normal;
+    margin-left:3vw;
+    padding-left: 2vw;
+}
+div{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    height:45px;
+}
+div>label{
+    width:200px;
+    margin:0;
+}
+
+exp{
+    font-size:13px;
+    color:grey;
+}
